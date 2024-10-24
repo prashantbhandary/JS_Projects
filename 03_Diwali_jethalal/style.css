@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282c34; /* Dark background */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em; /* Increase font size for headings */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a shadow effect */
+}
+
+button {
+    
+    padding: 15px 30px; /* Add padding */
+    margin: 10px; /* Add margin */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2em; /* Increase font size for buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button#start {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+}
+
+button#start:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button#stop {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+}
+
+button#stop:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}

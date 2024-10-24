@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e274e 0%, #764ba2 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+  }
+  
+  .center {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  
+  #banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 15px 15px 0 0;
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  #clock {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0 0 15px 15px;
+    padding: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  #clock:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(104, 97, 97, 0.5);
+  }
+  
+  @media (max-width: 600px) {
+    .center {
+      width: 80%;
+    }
+  
+    #banner {
+      font-size: 1.2em;
+      padding: 10px 20px;
+    }
+  
+    #clock {
+      font-size: 2em;
+      padding: 20px;
+    }
+  }
